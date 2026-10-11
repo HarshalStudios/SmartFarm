@@ -1,0 +1,6 @@
+{
+  "name": "SmartFarm — Smart IoT-Based Precision Farming",
+  "description": "Frontend prototype for SmartFarm IoT-based precision agriculture, featuring simulated sensor telemetry, crop health monitoring, threshold alerts, and farm/device management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
