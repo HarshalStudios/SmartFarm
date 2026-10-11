@@ -8,11 +8,12 @@ import {
   LandPlot,
   UserProfile,
 } from '../types/smartfarm';
+import { EMBEDDED_SMARTFARM_IMAGES } from './embeddedImages';
 
 export const VISUAL_ASSETS = {
-  aerialHero: '/src/assets/images/smartfarm_aerial_hero_1791747035139.jpg',
-  loginSplit: '/src/assets/images/smartfarm_login_split_1791747049427.jpg',
-  soilSensor: '/src/assets/images/smartfarm_soil_telemetry_1791747062014.jpg',
+  aerialHero: EMBEDDED_SMARTFARM_IMAGES.aerialHero,
+  loginSplit: EMBEDDED_SMARTFARM_IMAGES.loginSplit,
+  soilSensor: EMBEDDED_SMARTFARM_IMAGES.soilSensor,
 };
 
 export const INITIAL_FARMS: Farm[] = [
